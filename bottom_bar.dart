@@ -15,7 +15,6 @@ class _BottomBarState extends State<BottomBar> {
     HomeScreen(),
     const Text("search"),
     const Text("ticket"),
-    const Text("profile"),
   ];
   void _onChanged(int idx) {
     setState(() {
