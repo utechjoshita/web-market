@@ -45,20 +45,25 @@ class _BottomBarState extends State<BottomBar> {
             BottomNavigationBarItem(
                 icon: Icon(FluentSystemIcons.ic_fluent_home_regular),
                 activeIcon: Icon(FluentSystemIcons.ic_fluent_home_filled),
-                label: ""),
+                label: "",
+            ),
             BottomNavigationBarItem(
                 icon: Icon(FluentSystemIcons.ic_fluent_search_regular),
                 activeIcon: Icon(FluentSystemIcons.ic_fluent_search_filled),
-                label: ""),
+                label: "",
+            ),
             BottomNavigationBarItem(
                 icon: Icon(FluentSystemIcons.ic_fluent_ticket_regular),
                 activeIcon: Icon(FluentSystemIcons.ic_fluent_ticket_filled),
-                label: ""),
+                label: "",
+            ),
             BottomNavigationBarItem(
                 icon: Icon(FluentSystemIcons.ic_fluent_person_regular),
                 activeIcon: Icon(FluentSystemIcons.ic_fluent_person_filled),
-                label: ""),
-          ]),
+                label: "",
+            ),
+          ],
+        ),
     );
   }
 }
